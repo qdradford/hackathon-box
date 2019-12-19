@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import ContentUploader from 'box-ui-elements/content-uploader'
 
 function App() {
   return (
@@ -19,6 +20,10 @@ function App() {
           Learn React
         </a>
       </header>
+      <ContentUploader
+        rootFolderId={0}
+        token={'0y3FPdICSmXthiYIR9gkPbx6MLS5Km1s'}
+      />
     </div>
   );
 }
